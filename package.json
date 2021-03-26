@@ -1,6 +1,6 @@
 {
   "name": "@webreflection/trie-map",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A map-like Trie class",
   "main": "./cjs/index.js",
   "scripts": {
@@ -13,7 +13,11 @@
     "coveralls": "c8 report --reporter=text-lcov | coveralls",
     "test": "c8 node test/index.js"
   },
-  "keywords": ["trie", "map", "prefix"],
+  "keywords": [
+    "trie",
+    "map",
+    "prefix"
+  ],
   "author": "Andrea Giammarchi",
   "license": "ISC",
   "devDependencies": {
